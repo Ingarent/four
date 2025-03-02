@@ -1,0 +1,164 @@
+
+img{
+width: 15%;
+height: auto;
+background-color: transparent;
+mix-blend-mode: multiply;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#features {
+  padding: 50px 0;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.icon i {
+  color: #007bff; /* Icon color */
+}
+
+.desc h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.desc p {
+  font-size: 1em;
+  color: #666;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: non-wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.level {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  height: 10%;
+  width:100%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  overflow: hidden;
+
+}
+body {
+  background-color: rgb(147, 198, 242);
+}
+@media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px; /* Отступ сверху для формы */
+}
+#hero h2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px; /* Отступ снизу для заголовка */
+}
+iframe{
+  align-items: center;
+  width:1000px;
+  height: 350px;
+  padding:10px 450px;
+}
